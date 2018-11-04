@@ -3,7 +3,7 @@ const database = require('./database');
 
 const users = database.define('users', {
     id: {
-        type: Sequelize.INREGER,
+        type: Sequelize.INTEGER,
         primaryKey: true,
         autoIncrement: true,
     },
@@ -17,7 +17,7 @@ const users = database.define('users', {
 }, {
     tableName: 'users',
     createdAt: false,
-    updateAt: false,
+    updatedAt: false,
     deletedAt: false,
 });
 

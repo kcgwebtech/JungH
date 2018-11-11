@@ -149,3 +149,5 @@ typings/
 # FuseBox cache
 
 .fusebox/
+
+/api/config/jwt.json
